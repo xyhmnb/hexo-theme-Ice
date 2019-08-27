@@ -14,9 +14,14 @@
 			<%- page.content %> 
 		</div>
 		<% if(page.comments){ %>
-		    <div id="comments">
+		   
+			<div id="comments">
+                <!--
 		        <%- partial('_vendor/comments/index', {page: page}) %>
+				-->
+                <p>下面是分界线~</p>
 		    </div>
+			
 		<% } %>
 	</div>
 </div>
